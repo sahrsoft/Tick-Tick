@@ -1,2 +1,34 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+:root {
+	--ion-color-tickMain: #074173;
+	--ion-color-tickMain-rgb: 7,65,115;
+	--ion-color-tickMain-contrast: #ffffff;
+	--ion-color-tickMain-contrast-rgb: 255,255,255;
+	--ion-color-tickMain-shade: #063965;
+	--ion-color-tickMain-tint: #205481;
+
+	--ion-color-tickSecond: #1679AB;
+	--ion-color-tickSecond-rgb: 22,121,171;
+	--ion-color-tickSecond-contrast: #ffffff;
+	--ion-color-tickSecond-contrast-rgb: 255,255,255;
+	--ion-color-tickSecond-shade: #136a96;
+	--ion-color-tickSecond-tint: #2d86b3;
+}
+.ion-color-tickMain {
+  --ion-color-base: var(--ion-color-tickMain);
+  --ion-color-base-rgb: var(--ion-color-tickMain-rgb);
+  --ion-color-contrast: var(--ion-color-tickMain-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-tickMain-contrast-rgb);
+  --ion-color-shade: var(--ion-color-tickMain-shade);
+  --ion-color-tint: var(--ion-color-tickMain-tint);
+}
+
+.ion-color-tickSecond {
+  --ion-color-base: var(--ion-color-tickSecond);
+  --ion-color-base-rgb: var(--ion-color-tickSecond-rgb);
+  --ion-color-contrast: var(--ion-color-tickSecond-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-tickSecond-contrast-rgb);
+  --ion-color-shade: var(--ion-color-tickSecond-shade);
+  --ion-color-tint: var(--ion-color-tickSecond-tint);
+}

@@ -34,6 +34,12 @@ import '@ionic/react/css/palettes/dark.system.css'
 import './theme/variables.css'
 import Menu from './pages/Menu'
 import Today from './pages/Today'
+import Login from './pages/Login'
+import Search from './pages/Search'
+import MenuSettings from './pages/MenuSettings'
+import List from './pages/List'
+import Filter from './pages/Filter'
+import Tag from './pages/Tag'
 
 setupIonicReact()
 
@@ -47,6 +53,12 @@ const App: React.FC = () => (
         </Route> */}
 
         <Route path="/app" component={Menu} />
+        <Route path="/login" component={Login} />
+        <Route path="/search" component={Search} />
+        <Route path="/menu-settings" component={MenuSettings} />
+        <Route path="/list" component={List} />
+        <Route path="/filter" component={Filter} />
+        <Route path="/tag" component={Tag} />
 
         <Route exact path="/">
           <Redirect to="/app" />
